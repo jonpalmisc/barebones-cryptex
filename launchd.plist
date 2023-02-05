@@ -9,14 +9,14 @@
                 <false/>
 
                 <key>Label</key>
-                <string>com.example.minimal.simple-server</string>
+                <string>com.example.barebones.server</string>
 
                 <key>EnvironmentVariables</key>
                 <dict/>
 
                 <key>ProgramArguments</key>
                 <array>
-                        <string>/usr/bin/simple-server</string>
+                        <string>/usr/bin/server</string>
                 </array>
 
                 <key>KeepAlive</key>

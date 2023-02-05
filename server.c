@@ -15,7 +15,7 @@
 
 int main(int argc, char **argv)
 {
-    os_log_t log = os_log_create("com.minimal.example", "simple-server");
+    os_log_t log = os_log_create("com.example.barebones", "server");
 
     struct sockaddr_in addr;
     addr.sin_family = AF_INET;
