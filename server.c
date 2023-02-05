@@ -1,3 +1,8 @@
+//
+// This is a modified version of the "simple server" example provided with the
+// SRD repo; it is Apple's code (licensed under Apache 2.0), not mine.
+//
+
 #include <arpa/inet.h>
 #include <errno.h>
 #include <netinet/in.h>
@@ -11,7 +16,7 @@
 
 #include <os/log.h>
 
-#define PORT 7777
+#define PORT 7070
 
 int main(int argc, char **argv)
 {
